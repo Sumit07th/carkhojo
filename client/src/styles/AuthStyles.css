@@ -1,0 +1,66 @@
+/* ===================================
+========= register page  */
+.form-container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+   
+   
+  }
+  
+  .form-container form {
+    box-shadow: rgba(67, 191, 240, 0.35) 0px 15px 25px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid rgb(54, 51, 225);
+  }
+  
+  .form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .form-container form input {
+    border: none;
+    border-bottom: 1px solid #7993e2;
+    border-radius: 10px;
+  }
+  
+  .form-container form button {
+    border: 1px solid rgb(93, 84, 230);
+    border-radius: 0;
+    background-color: #38aee0;
+    color: white;
+    width: 250px;
+    border-radius: 15px;
+  }
+  
+  .form-container form button:hover {
+    border: 1px solid rgb(96, 143, 219);
+    background: #4f4fc4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #73c0d7,
+      #5a70ca
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #73c0d7,
+      #5a70ca
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .forgot-btn {
+    background-color: #1d3070a4 !important;
+    border: 0 !important;
+  }
+  
+  .forgot-btn:hover {
+    color: white !important;
+  }

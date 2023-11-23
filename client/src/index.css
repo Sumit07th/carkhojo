@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&family=Poppins:wght@500;600;700;800&family=Rufina:wght@400;700&family=Work+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 26px;
+  text-transform: uppercase;
+  
+}
+
+
+
+.para{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+
+
+.active {
+  border-bottom: 4px solid rgb(50, 160, 211);
+}
+
+.logo{
+height: 5rem;
+
+}
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #3a5dc8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4ebad2,
+    #4771dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5cc5db, #4a6cdc);
+}
+
+
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}

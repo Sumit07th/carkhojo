@@ -1,0 +1,103 @@
+
+.bio-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bio-image img {
+    display: inline-block;
+    width: 30%;
+    box-shadow: -2rem -2rem 0rem 0rem var(--helper);
+  }
+  
+  .common-heading {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 6rem;
+    text-transform: capitalize;
+    position: relative;
+  }
+  
+  .common-heading::before {
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: var(--helper);
+  }
+  
+  .common-heading::after {
+    content: "";
+    position: absolute;
+    top: 128%;
+    left: 1.5rem;
+    width: 30%;
+    height: 0.3rem;
+    background: var(--helper);
+  }
+  
+  
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  
+  .bio-progress-bar {
+    width: 90%;
+    height: 0.8rem;
+    /* background: var(--para); */
+    background-color: rgb(233 236 239);
+    border-radius: 10rem;
+    position: relative;
+    box-shadow: var(--shadpw);
+    /* overflow: hidden; */
+  }
+  
+  .bio-progress-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: inherit;
+    background: -webkit-linear-gradient(
+      0deg,
+      rgb(132 144 255) 0%,
+      rgb(98 189 252) 100%
+    );
+    border-radius: 10rem;
+  }
+  
+  /* to create the rectangle box  */
+  .bio-progress-bar span {
+    position: absolute;
+    top: 1.8rem;
+    left: 76%;
+    width: 4rem;
+    height: 2rem;
+    background: var(--helper);
+    color: var(--third);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+  }
+  
+  /* to create the traingle or caret symbol  */
+  .bio-progress-bar span::after {
+    content: "";
+    position: absolute;
+    top: -1.6rem;
+    width: 0rem;
+    height: 0rem;
+    border: 0.8rem solid var(--helper);
+    border-color: transparent;
+    border-bottom-color: var(--helper);
+  }

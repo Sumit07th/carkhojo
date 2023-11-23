@@ -1,0 +1,52 @@
+
+.section-hero {
+    background: var(--bg);
+  }
+  
+  .section-hero-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .hero-top-data {
+    text-transform: uppercase;
+    color: var(--heading);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--helper);
+  }
+  
+  .hero-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6.4rem;
+  }
+  
+  .hero-para {
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    max-width: 60rem;
+  }
+  
+  .section-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-img {
+    max-width: 50%;
+    z-index: 1;
+  }
+  .btn{
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
